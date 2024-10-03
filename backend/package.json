@@ -1,0 +1,40 @@
+{
+  "name": "app.tieup.net",
+  "version": "1.0.0",
+  "description": "tieup is a freelance cross-platform ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon server.ts",
+    "copy-json": "cp tieup-6eea9-firebase-adminsdk-imm2y-57c9393a6c.json dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@algolia/client-search": "^4.22.1",
+    "@algolia/transporter": "^4.22.1",
+    "@types/multer": "^1.4.11",
+    "algoliasearch": "^4.22.1",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "firebase-admin": "^12.0.0",
+    "moment-timezone": "^0.5.45",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.9",
+    "nodemon": "^3.0.3",
+    "rate-limit-redis": "^4.2.0",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/firebase": "^3.2.1",
+    "@types/node": "^20.11.17",
+    "@types/nodemailer": "^6.4.14",
+    "browser-sync": "^3.0.2",
+    "typescript": "^5.3.3"
+  }
+}

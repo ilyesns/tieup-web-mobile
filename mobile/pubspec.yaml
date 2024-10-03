@@ -1,0 +1,70 @@
+name: Tieup
+description: tieup
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.10+1
+  google_sign_in: ^6.2.1
+  pin_code_fields: ^8.0.1
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  sms_autofill: ^2.0.0
+  dotted_border: ^2.1.0
+  intl: ^0.19.0
+  fluttertoast: ^8.0.8
+  firebase_auth: ^4.17.8
+  firebase_core: ^2.27.0
+  stream_transform: ^2.1.0
+  video_player: ^2.8.6
+  chewie: ^1.7.5
+  url_launcher: ^6.2.6
+  cloud_firestore: ^4.15.8
+  image_picker: ^1.0.8
+  file_picker: ^8.0.0+1
+  badges: ^3.1.2
+  shimmer: ^3.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+    - android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+  fonts:
+    - family: Plus Jakarta Sans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSansMedium.ttf
+          weight: 500
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
